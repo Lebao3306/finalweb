@@ -1,0 +1,197 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"; font-size: 16px;color:#666666;margin: 0
+}
+header{
+	width: 100%; height: 60px; background-color: #D7D7D7;
+	border-bottom: 1px solid darkred;
+}
+.menu ul{
+	margin: 0; padding: 0; list-style: none; display: flex;
+}
+.menu{
+	padding-top: 18px
+}
+.menu ul li a{
+	padding: 10px 20px; text-decoration: none; font-size: 17px; text-transform: capitalize; color:#004F3C; border-radius: 20px;background-color: #09B5C5;margin-right: 10px
+}
+.menu ul li a:hover{
+	background-color: #16FFFA; color: white
+	
+}
+/*phan menu*/
+#slide .owl-dots{ position:absolute; bottom: 10px; left:45%;}
+#slide .owl-dots .owl-dot span {
+      width: 12px;
+      height: 12px; 	
+}
+
+#slide .owl-nav { position:absolute; left:0px; top:40%; width:100%; }
+#slide .owl-nav [class*='owl-'] {
+	font-size:80px; /*background:rgba(255,255,255,.5);border:1px solid #fff; */ color: #fff
+}
+
+#slide .owl-nav .owl-next{ position:absolute; right:5%;}
+#slide .owl-nav .owl-prev{ position:absolute; left:5%;}
+#slide .owl-nav [class*='owl-']:hover {
+      background:none;border: none;
+      color:cadetblue;
+      text-decoration: none; }
+aside{
+	width: 100%;min-height: 300px
+}
+main{
+	width: 100%;min-height: 500px
+	
+}
+.text-do{
+	color: darkred
+}
+aside ul{
+	margin: 0;padding: 0;list-style: none; display: flex;flex-direction: column
+}
+aside ul li{
+	border-bottom: 1px solid #C0C0C0
+}
+aside ul li a{
+	text-decoration: none;padding: 10px;display: block; color:darkcyan
+}
+aside ul li a:hover{
+	background-color: goldenrod; color: white
+}
+.text-center{
+	text-align: center
+}
+footer{
+	width: 100%; min-height: 150px;background-color:#022F40
+}
+footer a{
+	text-decoration: none; color: #464646
+}
+footer a:hover{
+	background-color: darkgreen; color: white
+}
+.bg-xanh{
+	background-color: aqua
+}
+footer ul{
+	margin: 0px; padding: 0px; list-style: none; display: flex; flex-direction: column
+}
+footer ul li a{
+	display: block; padding-bottom: 10px; color: white
+}
+.gach-chan{
+	border-bottom: 2px solid #044544
+		
+}
+.vien{
+	width: 100%; min-height: 300px; border: 1px solid darkred; padding: 10px;margin-top: 30px
+}
+.hinh{
+	width: 100%;position: relative; overflow: hidden
+}
+.icon{
+	width: 80%; height: 40px; position: absolute;left: 10%; top: 130%;display: flex;justify-content: space-around;transition: all 1s
+}
+.icon a{
+	width: 40px; height: 40px;background-color: #14EBFA; color:white;border-radius: 50%;display: flex;justify-content: center;align-items: center;text-decoration: none
+}
+.hinh:hover .icon{
+	top: 40%
+}
+.icon a:hover{
+	background-color: orange; color: darkred
+}
+#feature{
+	width: 100%;min-height: 700px;background-image: url("../images/bg2.png");background-repeat: no-repeat;background-size: cover;background-position:bottom center
+}
+.pt-30{
+	padding-top:30px
+}
+.vien-trang{
+	width: 100%;min-height: 120px;border: 1px solid #FFFFFF;text-align: center;padding: 30px;margin-top: 100px
+}
+#feature a{
+	text-decoration: none; color: darkred;
+}
+#feature a:hover{
+ color: white;
+}
+.text-giua{
+	text-align: center
+}
+#contact{
+	width: 100%;min-height: 500px;background-image: url("../images/Banner2.png");background-repeat: no-repeat;background-size: cover;background-position: center
+}
+.shadow{
+	width: 100%;min-height: 300px;border: 1px solid #4A4A4A; box-shadow: 5px 5px 5px gray; padding: 30px
+}
+.form-control{
+	padding: 8px; margin-bottom: 10px; width: 100%
+}
+header{
+	background-color: #022F40
+}
+.nen-xanh{
+	background-color: #14998D
+}
+.container-m1{
+	width: 100%; min-height: 300px
+}
+.text-header{
+	color: white; font-family:"Minecraft Ten";font-size: 20px;text-align: center
+}
+.vien{
+	width: 100%; min-height: 300px; border: 1px solid aqua; padding: 10px;margin-top: 30px
+}
+.hinh{
+	width: 100%;position: relative; overflow: hidden
+}
+.icon{
+	width: 80%; height: 40px; position: absolute;left: 10%; top: 130%;display: flex;justify-content: space-around;transition: all 1s
+}
+.icon-vang{
+	width: 80%; height: 40px; position: absolute;left: 10%; top: 130%;display: flex;justify-content: space-around;transition: all 1s
+}
+body{
+		background-image: linear-gradient(120deg, #022F40 10%,#38AECC 80%)
+	}
+h1{
+	background-color:transparent; animation: effect 2s linear infinite;
+}
+.text-xanh{
+	color: #8DFDFF; 
+}
+.text-xanh1{
+	color: #8DFDFF; font-family: "Minecraft Ten"
+}
+.text-xanh2{
+	color: #8DFDFF;text-decoration: none
+}
+.text-gia{
+	color:white
+}
+.text-giavang{
+	color:gold
+}
+.text-footer{
+	font-size: 15px; color: white
+}
+.btn{
+	border-radius: 20px; background-color:#167681 ;font-size: 20px;color: white
+}
+.btn:hover{
+	background-color:#FF8B00;color: darkred
+}
+.bg-container{
+	    background-color: #fff;
+	    height: 100%;
+	    width: 100%;
+		background-image: linear-gradient(60deg, #ff6596, #60bef8, #d88cff);
+		background-size: 600% 600%;
+		animation: effect2 15s infinite linear;
+}
+.button-epic{
+	background-image: linear-gradient(60deg, #ff6596, #60bef8, #d88cff);animation: effect2 15s infinite linear;
+}
